@@ -274,7 +274,7 @@ def process_chunk(ds_chunk: Sequence[Dict], translator_chunk: ClaudeTranslator, 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_type', type=str, default="claude-3-5-sonnet-v2@20241022")
+    parser.add_argument('--model_type', type=str, default="claude-3-7-sonnet-20250219")
     parser.add_argument('--output_dir', type=str, default="./results/translator")
     parser.add_argument('--split', type=str, default="test")
     parser.add_argument('--target_lang', type=str, default="Japanese")
